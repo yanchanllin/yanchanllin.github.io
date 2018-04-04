@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "What's an interesting problem you solved while learning CSS?"
-date:   2017-09-26 00:39:40 +0000
+title:      "What's an interesting problem you solved?"
+date:       2017-09-25 20:39:41 -0400
+permalink:  whats_an_interesting_problem_you_solved_while_learning_css
 ---
 
 

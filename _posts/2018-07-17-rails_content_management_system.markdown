@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Rails content management system"
-date:       2018-07-17 23:12:58 +0000
+date:       2018-07-17 19:12:59 -0400
 permalink:  rails_content_management_system
 ---
 

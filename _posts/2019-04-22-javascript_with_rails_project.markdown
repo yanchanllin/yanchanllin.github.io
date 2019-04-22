@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      "Javascript With Rails Project "
+title:      "Javascript With Rails"
 date:       2019-04-22 18:03:07 -0400
 permalink:  javascript_with_rails_project
 ---

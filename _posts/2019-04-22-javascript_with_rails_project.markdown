@@ -43,7 +43,10 @@ I choose new order's page to render a rails new order form to post Json without 
                           $("form#new_order.new_order").html(htmlToAdd)
 			         	})
                      })```
- Overall I am happy with how things turned out. Through this process I have learned so much and I can still add some more features I want to include later, since I know how to do it now. Can't wait what is there to learn and be a better full stack web developer. 	
+
+
+
+Overall I am happy with how things turned out. Through this process I have learned so much and I can still add some more features I want to include later, since I know how to do it now. Can't wait what is there to learn and be a better full stack web developer. 	
 							
 
 

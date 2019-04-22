@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      "Javascript With Rails"
+title:      "Javascript With Rails: Custom Order Delivery"
 date:       2019-04-22 18:03:07 -0400
 permalink:  javascript_with_rails_project
 ---

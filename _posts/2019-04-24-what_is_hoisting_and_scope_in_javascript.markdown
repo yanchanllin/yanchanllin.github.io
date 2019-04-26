@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "What is Hoisting and Scope in JavaScript?  "
-date:       2019-04-24 21:16:10 +0000
+date:       2019-04-24 17:16:11 -0400
 permalink:  what_is_hoisting_and_scope_in_javascript
 ---
 
@@ -29,9 +29,9 @@ Bad example:
 
 console.log(num); // Returns undefined 
 
-let num;
+var num;
 
-num = 2;
+num = 6;
 
 Moreover context and scope play a significant role in JavaScript, context is related to objects and it refers to which a function belongs. When you use the JavaScript “this” keyword, it refers to the object which function belongs. Scope is variables defined inside a function and not visible from outside the function. If a variable is not "in the current scope," then we can not use it. Scopes can also be layered in a hierarchy, child scopes have access to parent scopes. Function scope can only be accessed from within the function,local variables are only recognized inside their functions. Block scope is called within the body of a function or a block statement that creates its own scope.
 

@@ -6,47 +6,56 @@ permalink:  what_is_hoisting_and_scope_in_javascript
 ---
 
 
-In this blog, I will introduce the concept of JavaScript hoisting, Hoisting was thought up as a general way of thinking about how execution contexts(specifically the creation and execution phases) work in JavaScript. Which deals with how function and variable declarations seem to get 'hoisted' to the top of the current scope. The variable and function declarations are put into memory during the compile phase, but stay where you typed them in your code.
-
-When hoisting remember to follow these two simple rules: first declare all of your functions at the top of their scope. If the functions are declared in the global scope, simply put them at the top of the JavaScript file. If they're declared inside another function, put the declaration at the top of the function body. Second only use ES6 syntaxes const and let. Never use var, because var will cause some hoisting issues.
-
-Given a good example for hoisting:
-
-dogName("Lucky");
-
-function dogName(name) {
-
-  console.log("My dog's name is " + name);
+   First of all we run the JavaScript file from the top, so it is better to define a function before we invoked it. JavaScript engine will get the definition in advance, thus will not return undefined or causing any bugs. Moreover JavaScript hoisting is where variables and function declarations are moved to the top of their scope before we run the code. As in this example below JavaScript engine experience two phases, one is compilation phase and the other is execution phase. During the compilation phase JavaScript engine stores the declared function myWhat() in memory, and in execution phase myWhat() has already been created in memory start to execute line by line from the top. The term for this process is the hoisting because your declarations are being hoisted to the top of the current scope, and the best way to avoid any confusion for hoisting in JavaScript code is to declare your functions at the very top.
+```
+myWhat(); 
+function myWhat () {
+  return 'Hi, there';	
 }
+// =>  "Hi, there"
+```
 
-/*
-The result of the code above is: "My dog's name is Lucky"
-*/
-
-Although we call the function in our code first before the function, the code will still work. This is because of how context execution works in JavaScript.By the time the JavaScript engine reaches the execution phase, dogName("Lucky") has already been created in memory. The engine starts over at the top of the code and begins executing it line-by-line. Also JavaScript only hoists declarations not initializations. If a variable is declared and initialized after using it, the value will be undefined.
-
-Bad example:
-
-console.log(num); // Returns undefined 
-
-var num;
-
-num = 6;
-
-Moreover context and scope play a significant role in JavaScript, context is related to objects and it refers to which a function belongs. When you use the JavaScript “this” keyword, it refers to the object which function belongs. Scope is variables defined inside a function and not visible from outside the function. If a variable is not "in the current scope," then we can not use it. Scopes can also be layered in a hierarchy, child scopes have access to parent scopes. Function scope can only be accessed from within the function,local variables are only recognized inside their functions. Block scope is called within the body of a function or a block statement that creates its own scope.
-
-Scope example: 
-
-// code here can NOT use catName
-
-function myFunction() {
-
-  var catName = "toby";
-
-  // code here CAN use catName
+ Furthermore hoisting only applies to variable declarations, and not variable assignments. For example:
+```
+ // This is Declaration:
+let cat;
+ 
+// This is Assignment:
+cat = 'kitty';
+ 
+// This is Declaration and assignment on the same line:
+let hello = 'world';
+```
+   As I mentioned before JavaScript during compilation phase hoisting will only get variable declarations, variable assignments will be undefined. yet it is better to use const and let in JavaScript hoisting, because var will cause hoisting issues and your programs are susceptible to oddly bugs. let and const make our code hoisting easier, plus JavaScript engine will execute it easier at execution phase.
+ 
+Scope in JavaScript is where our code like variables and methods place at, our code can place at in many different scopes like global scope and function scope. Global scope are where variables and functions declared in the global execution context, where all scripts and functions on a web page can access it.
+```
+function myNum () {
+  return 2;
 }
+// => undefined
 
-However, a variable declared outside a function is called global scope, all scripts and functions on a web page can access it.
+const myVar = myNum() * 2;
+// => undefined
+ 
+myVar;
+// => 4
+//we can use myNum() in myVar in the same scope or the global execution context, because myNum is declared in the global scope we can use it anywhere in our code.
+```
+  Yet function scope is variable or function that is declared inside a function or block, where we code in the function body. Also we can reference anything declared inside of its own scope, not outside the scope unlike global scope.
+```
+function myNum () {
+  const myVar = 2;
+ 
+  return myVar * 2;
+}
+// => undefined
+ 
+myNum();
+// => 4
+//This example creates its own scope within its function body
+```
+ Moreover block scoping is a block statement that create its own scope within a set of curly brackets. While var are not block scoped, variables are set with const and let can be block scoped. Hence const and let are always better to use in JavaScript and it's a good way to avoid errors or bugs. Sometimes we also use context, context is always the value of the "this" keyword often refer to object that “owns” the currently executing code.
 
- It is important to understand scope, hoisting and context in JavaScript, it will assist you better understand all the concept before advanced JavaScript. They play a fundamental role in modern JavaScript, helps you reach your goal to master this language.  
+ In conclusion remember to use const and let to declare variables, const and let are more JavaScript developer coding friendly. In addition its important to understand scope and hoisting in JavaScript, scopes and hoisting will not only help you better understand the concept before advanced JavaScript. Good understand of scope will avoid coding mistakes. They all play a fundamental role in modern JavaScript to reach your goal in master this language.  
 

@@ -26,7 +26,7 @@ cat = 'kitty';
 // This is Declaration and assignment on the same line:
 let hello = 'world';
 ```
-   As I mentioned before JavaScript during compilation phase hoisting will only get variable declarations, variable assignments will be undefined. yet it is better to use const and let in JavaScript hoisting, because var will cause hoisting issues and your programs are susceptible to oddly bugs. let and const make our block scope code hoisting easier, plus JavaScript engine will execute it easier at execution phase.
+   As I mentioned before JavaScript during compilation phase hoisting will only get variable declarations, variable assignments will be undefined. yet it is better to use const and let in JavaScript hoisting, because initialisation var will cause hoisting issues and your programs are susceptible to oddly bugs. let and const make our block scope code hoisting easier, plus JavaScript engine will execute it easier at execution phase.
  
 Scope in JavaScript is where our code like variables and methods place at, our code can place at in many different scopes like global scope and function scope. Global scope are where variables and functions declared in the global execution context, where all scripts and functions on a web page can access it.
 ```

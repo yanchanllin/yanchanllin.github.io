@@ -1,15 +1,14 @@
 # Site settings
-title: My Life, My Dream 
+author: Yan Chan Lin 
+title: Yan c Lin
 header-img: img/home-bg.png
 email: yonalin1@gmail.com
-copyright_name: yanchanllin
+copyright_name: Yan Chan Lin 
 description: > # this means to ignore newlines until "baseurl:"
   Live, Laugh
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  yanchanllin
-learn_profile: yanchanllin
-email_username: yonalin1@gmail.com
 
 # Build settings
 markdown: kramdown

@@ -1,15 +1,13 @@
 ---
 layout: post
 title:      "Interesting Regax"
-date:       2017-11-05 05:50:38 +0000
+date:       2017-11-05 01:50:39 -0400
 permalink:  interesting_regax
 ---
 
 
 I just learned Regax and Rubular, and found Regax interesting. It is like a .collect iterater collects all the data, word,letter,and numbers etc. then return what we looking for example: when we want to find any words start with a vowel:aeiou 
 
-
-```
 1.  def starts_with_a_vowel?(word)
 
  if word.match(/^[aeiouAEIOU]+\w/)
@@ -42,7 +40,7 @@ end
 
 4.def valid_phone_number?(phone)
    
-	 if phone.match(/([0-9] *?){10}|(\([0-9]{3}\)(([0-9]{3}-[0-9]{4})|[0-9]{7})\b)/)
+ if phone.match(/([0-9] *?){10}|(\([0-9]{3}\)(([0-9]{3}-[0-9]{4})|[0-9]{7})\b)/)
     then
       return true
     else

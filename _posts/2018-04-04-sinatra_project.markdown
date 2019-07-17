@@ -11,7 +11,7 @@ permalink:  sinatra_project
 * Music bands
 * instruments 
 
-![rock band](https://thetechreader.com/files/2015/04/rockband-4-virtual-reality.jpg)
+![rock band](https://i.imgur.com/mgJ22VBb.jpg)
  
 Also users can edit and delete their own band information and view all the band later, if they want to which I instore it in views folder it edit the page, create, and show the page. A user can only modify their own page. models folder using multiple objects that interact, including separate classes use ActiveRecord to help build method to model out the relation between. most importantly application controller help to control the system to get, to post, to patch using sinatra; it take actions that map to the correct routes. db folder migrate tables for music bands, instruments, and users.  
 

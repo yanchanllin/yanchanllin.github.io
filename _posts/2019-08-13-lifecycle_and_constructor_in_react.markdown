@@ -8,16 +8,12 @@ permalink:  lifecycle_and_constructor_in_react
   Constructor( ) method is inside the react class component and fired before the component is mounted. It is automatically called when an object is created, it helps constructing things  to initial setup like local state and checking the arguments that were passed in. 
 	
 `constructor( ) {
-
    super( );
-
   this.state = {
-	
     // Sets that initial state
-		
   }`
 	
-	Also inside constructor we can bind event handlers to the component, if you aren’t binding any event handlers, you don’t need to define it in constructor. Often we can use event handler arrow function to skip the binding define part in constructor or inside when display return. 
+ Also inside constructor we can bind event handlers to the component, if you aren’t binding any event handlers, you don’t need to define it in constructor. Often we can use event handler arrow function to skip the binding define part in constructor or inside when display return. 
 	
 `constructor( ) {
    super( );
@@ -34,7 +30,7 @@ permalink:  lifecycle_and_constructor_in_react
  After constructor( ), we call super(props) because constructor itself can not use this.props object can lead to error. Thus we take a props value from the constructor() and pass it to the super() method, it calls the constructor of the parent class. Then we can use this.props later on.
 
 `constructor(props) {
-    super(props);
+   super(props);
       console.log(this.props);
  
   this.state = {

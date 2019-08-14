@@ -20,7 +20,7 @@ permalink:  lifecycle_and_constructor_in_react
    super()
       this.state = {
 	// Sets that initial state
-          };
+      };
 
   // Our event handlers
     this.onClick = this.onClick.bind(this);
@@ -29,13 +29,13 @@ permalink:  lifecycle_and_constructor_in_react
 
  After constructor( ), we call super(props) because constructor itself can not use this.props object can lead to error. Thus we take a props value from the constructor() and pass it to the super() method, it calls the constructor of the parent class. Then we can use this.props later on.
 
-`constructor(props) {
-   super(props);
+ `constructor(props) {
+    super(props);
       console.log(this.props);
  
-  this.state = {
-    // Sets that initial state
-  };
+      this.state = {
+   // Sets that initial state
+     };
 
   // Our event handlers
   this.onClick = this.onClick.bind(this);

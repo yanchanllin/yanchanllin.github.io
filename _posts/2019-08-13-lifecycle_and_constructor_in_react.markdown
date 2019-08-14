@@ -22,9 +22,9 @@ Also inside constructor we can bind event handlers to the component, if you aren
 		// Sets that initial state
          };
 	   
-    // Our event handlers
-    this.onClick = this.onClick.bind(this);
-    // et cetera...
+       // Our event handlers
+      this.onClick = this.onClick.bind(this);
+      // et cetera...
       }`
 
  After constructor( ), we call super(props) because constructor itself can not use this.props object can lead to error. Thus we take a props value from the constructor() and pass it to the super() method, it calls the constructor of the parent class. Then we can use this.props later on.

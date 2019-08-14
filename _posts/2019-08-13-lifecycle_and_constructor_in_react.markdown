@@ -49,7 +49,7 @@ Also inside constructor we can bind event handlers to the component, if you aren
       }`
 		
   React lifecycle starts from initialization, mounting, updation, and unmounting. Initialization to setup props and state like inside constructor( ) method sets that initial state. Mounting starts from componentWillMount( ) to render to componentDidMount( ):
-	
+
 `class Books extends React.Component {
    constructor(props) {
       super(props);

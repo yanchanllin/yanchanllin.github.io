@@ -34,13 +34,13 @@ Also inside constructor we can bind event handlers to the component, if you aren
         console.log(this.props);
  
            this.state = {
-    // Sets that initial state
+          // Sets that initial state
        };
 
-    // Our event handlers
-     this.onClick = this.onClick.bind(this);
-    // et cetera...
- } `
+      // Our event handlers
+       this.onClick = this.onClick.bind(this);
+      // et cetera...
+    } `
  
   Do not call setState() inside constructor( ), it can handle set the initial state of your component and constructor is the only place that you should assign the local state. Other places should rely on setState( ) this callback function performs a shallow merge of the state change into the new state. If you aren’t planning on having state in your component and aren’t binding any event handlers, you don’t need to define a constructor at all. Then you do not need a class component, use a functional component will be less code. For example:
 	

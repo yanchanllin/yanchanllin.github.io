@@ -11,8 +11,8 @@ permalink:  lifecycle_and_constructor_in_react
         super()
            this.state = {
 		// Sets that initial state
-      };
-		}`
+           };
+	  }`
 			
 Also inside constructor we can bind event handlers to the component, if you aren’t binding any event handlers, you don’t need to define it in constructor. Often we can use event handler arrow function to skip the binding define part in constructor or inside when display return. 
 	

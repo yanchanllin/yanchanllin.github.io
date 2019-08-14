@@ -65,14 +65,14 @@ Also inside constructor we can bind event handlers to the component, if you aren
 
      }
 
-  render() {
-    return (
-      <div>
-        <h1>Hello</h1>
-      </div>
-    );
-  }
- }`
+     render() {
+       return (
+        <div>
+          <h1>Hello</h1>
+        </div>
+        );
+      }
+    }`
  
   For example here we will not show componentWillMount( ), it is called before the render method is executed and will not see or trigger an extra rendering. componentWillMount() when invoked just before mounting occurs. It is called before render(), therefore calling setState() synchronously in this method will not get re-rendering. 
 	

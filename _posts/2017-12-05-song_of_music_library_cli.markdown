@@ -22,7 +22,7 @@ Note for myself:
      end
     end` 
 
-So artist = nil means a optional second argument here, it can be = to nil. 
+So artist = nil means a optional second argument here, it can be = nil. 
 self.artist=(artist) if artist, it means that if there is artist; then run class song artist=(artist).
 same goes to genre and file_name arguments here, they are optional aruments.
 Last I want to say I'm pround of myself, it had been a long road;lots of practices does pay off! you learned more and more everyday, keep fighting. 

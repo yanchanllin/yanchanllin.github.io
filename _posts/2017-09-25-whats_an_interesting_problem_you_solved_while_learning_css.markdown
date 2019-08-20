@@ -24,7 +24,7 @@ I was building a CLI Tic Tac Toe game at object orientation Tic Tac Toe earlier 
            def board
              @board
            end
-				 end`
+	     end`
 					 
 Since we have initialize the board at the beginning, now we can use  @board in later helper methods. We don’t need to put an additional argument of board. 
 

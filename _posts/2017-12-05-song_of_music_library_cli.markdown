@@ -8,13 +8,13 @@ permalink:  song_of_music_library_cli
 Note for myself: 
 
  `class Song
-  extend Concerns::Findable
+    extend Concerns::Findable
 
-  attr_accessor :name,:artist, :genre
+     attr_accessor :name,:artist, :genre
 
-  @@all = []
+     @@all = []
 
- def initialize(name, artist = nil, genre = nil, file_name = nil)
+   def initialize(name, artist = nil, genre = nil, file_name = nil)
      @name = name
     self.artist=(artist) if artist
     self.genre=(genre) if genre

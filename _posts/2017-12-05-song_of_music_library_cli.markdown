@@ -7,20 +7,20 @@ permalink:  song_of_music_library_cli
 
 Note for myself: 
 
- `class Song
-    extend Concerns::Findable
+  `class Song
+     extend Concerns::Findable
 
      attr_accessor :name,:artist, :genre
 
      @@all = []
 
-   def initialize(name, artist = nil, genre = nil, file_name = nil)
-     @name = name
-    self.artist=(artist) if artist
-    self.genre=(genre) if genre
-    self.file_name=(file_name) if file_name
-  end
- end` 
+     def initialize(name, artist = nil, genre = nil, file_name = nil)
+       @name = name
+       self.artist=(artist) if artist
+       self.genre=(genre) if genre
+       self.file_name=(file_name) if file_name
+     end
+   end` 
 
 So artist = nil means a optional second argument here, it can be = to nil. 
 self.artist=(artist) if artist, it means that if there is artist; then run class song artist=(artist).

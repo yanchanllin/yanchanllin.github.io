@@ -9,12 +9,12 @@ permalink:  interesting_regax
 I just learned Regax and Rubular, and found Regax interesting. It is like a .collect iterater collects all the data, word,letter,and numbers etc. then return what we looking for example: when we want to find any words start with a vowel:aeiou 
 
     `def starts_with_a_vowel?(word)
-         if word.match(/^[aeiouAEIOU]+\w/)
-          then
-           return true
-        else
-          return false
-         end
+       if word.match(/^[aeiouAEIOU]+\w/)
+         then
+          return true
+       else
+         return false
+       end
       end `
 
     `def words_starting_with_un_and_ending_with_ing(text)

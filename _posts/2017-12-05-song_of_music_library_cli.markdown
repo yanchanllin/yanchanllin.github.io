@@ -7,7 +7,7 @@ permalink:  song_of_music_library_cli
 
 Note for myself: 
 
- class Song
+ `class Song
   extend Concerns::Findable
 
   attr_accessor :name,:artist, :genre
@@ -20,20 +20,20 @@ Note for myself:
     self.genre=(genre) if genre
     self.file_name=(file_name) if file_name
   end
- end 
+ end` 
 
 So artist = nil means a optional second argument here, it can be = to nil. 
 self.artist=(artist) if artist, it means that if there is artist; then run class song artist=(artist).
 same goes to genre and file_name arguments here, they are optional aruments.
 Last I want to say I'm pround of myself, it had been a long road;lots of practices does pay off! you learned more and more everyday, keep fighting. 
 
-  def artist=(artist)
+  `def artist=(artist)
     @artist = artist
     artist.add_song(self)
-  end
+  end`
 Here since you have .add_song method at the other Class, you can put in (self) here as an argument as for song class for this artist= method at Song class.
 
- def self.all
+ `def self.all
     @@all
   end
 
@@ -56,5 +56,5 @@ Here since you have .add_song method at the other Class, you can put in (self) h
 	
   def self.create_from_filename(file_name)
     @@all << self.new_from_filename(file_name)
-  end
+  end`
 

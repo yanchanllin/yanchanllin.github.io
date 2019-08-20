@@ -40,8 +40,8 @@ I just learned Regax and Rubular, and found Regax interesting. It is like a .col
              return true
            else
               return false
-           end
-          end`
+          end
+       end`
 
 
 

@@ -32,6 +32,7 @@ Last I want to say I'm pround of myself, it had been a long road;lots of practic
        artist.add_song(self)
      end`
 		 
+		 
 Here since you have .add_song method at the other Class, you can put in (self) here as an argument as for song class for this artist= method at Song class.
 
      `def self.all
@@ -53,6 +54,8 @@ Here since you have .add_song method at the other Class, you can put in (self) h
 	     song.artist.add_song(song)
        song
      end
+		 
+		 
   <<--you can use .delete " " or .gsub(".mp3","')
 	
        def self.create_from_filename(file_name)

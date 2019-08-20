@@ -28,8 +28,8 @@ same goes to genre and file_name arguments here, they are optional aruments.
 Last I want to say I'm pround of myself, it had been a long road;lots of practices does pay off! you learned more and more everyday, keep fighting. 
 
      `def artist=(artist)
-      @artist = artist
-       artist.add_song(self)
+        @artist = artist
+        artist.add_song(self)
      end`
 		 
 		 

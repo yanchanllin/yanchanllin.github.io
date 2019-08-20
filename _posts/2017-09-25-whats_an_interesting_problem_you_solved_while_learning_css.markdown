@@ -11,7 +11,7 @@ I was building a CLI Tic Tac Toe game at object orientation Tic Tac Toe earlier 
    When #new is called with an argument, it will pass that argument (or arguments) to the #initialize method and invoke that method. The code in #initialize will then run, using any arguments from #new.
      In this lab initialize method should set a @board variable equal to a new, empty array that represents the game board.
 		 
-         `class TicTacToe
+         `Class TicTacToe
 				 
              def initialize (board= [" "," "," "," "," "," "," "," "," "])  
               @board = board

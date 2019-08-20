@@ -5,10 +5,9 @@ date:       2017-10-17 16:24:58 -0400
 permalink:  square-array
 ---
 
-Something I learned today, and I thought it will be helpful if I write this down. I'm bad at this for now, but I believe practice make it better each time.
+Something I learned today, and I thought it would be helpful if I write this down. I'm bad at this for now, but I believe practice make it better each time.
 
      `def square_array(array)
-
         result =[]    #new array right here. Let's call it result
          array.each do |number|
           result << number**2    put in to new array

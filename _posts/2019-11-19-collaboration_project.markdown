@@ -6,7 +6,7 @@ permalink:  collaboration_project
 ---
 
 
-Today's blog will be about to go over some notes and tricks I learned through one of the collaboration project I did recently, this is going to be a short reminder to myself in the future for projects and it's always good practice. First how to contribute to the project , it's going to show you how to fork from the repository, clone it down work on it from your computer, push these changes out to your forked repository. 
+Today's blog will be about to go over some notes and tricks I learned through one of the collaborative project I did recently, this is going to be a short reminder to myself in the future for projects and it's always good practice. First how to contribute to the project , it's going to show you how to fork from the repository, clone it down work on it from your computer, push these changes out to your forked repository. 
 
 On your computer open up terminal, I'm using virtual box but on atom can install or download platformio, it's built in terminal you do not need a separate window for it. Then cd into your desktop or project create a directory to hold both the repository from GitHub like one from the backend and one from the frontend. To avoid switching back and forth to simplify when work on it at the same time, create a directory name that you want to in line with naming to identify easier. You can cd into this directory folder for ease on the other hand, you can choose not to create a folder like this it's up to your preference.  
 

@@ -1,7 +1,7 @@
 ---
 layout: post
-title:      "Project Collaboration blog II"
-date:       2019-11-21 20:07:53 +0000
+title:      "Project Collaboration Blog II"
+date:       2019-11-21 15:07:54 -0500
 permalink:  project_collaboration_blog_ii
 ---
 

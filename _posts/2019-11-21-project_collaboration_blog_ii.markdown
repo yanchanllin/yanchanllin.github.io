@@ -12,5 +12,5 @@ There are few ways to do that you can delete the fork and re-fork it; that can b
 
 Now you can pull from original group account by "git pull upstream master" to update your GitHub repository, then "git checkout -b demo_branch" to create a new branch for making code changes, after changes "git status", git add "  ", git commit -m"message", git push origin demo_branch (this is the branch you made changes in). 
 
-Once you are done push that go back to your GitHub repository will see your created branch, go to that branch to click on "new pull request" to merge in with master.
+Once you are done with git push, go back to your GitHub repository will see your created branch. Now go to that branch click on "new pull request" to merge in with master.
 

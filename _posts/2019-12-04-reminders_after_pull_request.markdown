@@ -12,6 +12,6 @@ After that collaborator approved for this new pull request, click on `confirm me
 
 Pull requests are important because they help make sure all the code that merged are good codes into GitHub repositories, messy and confusing code can easily run into errors in the base branch. Pull requests allow for programmers to efficiently review and quickly merge code into master, letting other collabrators know what had changed since the last update. Therefore it will not cause confusion and two people will not working on the same mission/code. 
 
-Thank you for reading this blog post it's a reminder for myself for collaborate on projects or applications, hope you find this helpful as well.  
+Thank you for reading this blog post it's a reminder for myself for collaborate on projects or applications, even though I did few pull requests already. I like to write down what I have learned to enhance my memory, hope you find this helpful as well.  
 
 

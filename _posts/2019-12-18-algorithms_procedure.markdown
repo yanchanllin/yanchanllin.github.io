@@ -1,14 +1,14 @@
 ---
 layout: post
 title:      "Algorithms/Procedure"
-date:       2019-12-19 03:18:52 +0000
+date:       2019-12-18 22:18:53 -0500
 permalink:  algorithms_procedure
 ---
 
 
    Our programming languages need algorithms, we can apply algorithm's technique to solve alot problems in programming.
  
-first make it work,
+First make it work,
 make it readable
 and make it fast.
 

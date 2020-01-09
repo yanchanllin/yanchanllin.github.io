@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Regular expressions security & validation"
-date:       2020-01-09 01:50:09 +0000
+date:       2020-01-08 20:50:10 -0500
 permalink:  regular_expressions_security_and_validation
 ---
 
@@ -25,5 +25,9 @@ The match method returns the first item in your string that matches a given Regu
 ```
 
 Reminder note: https is secured communication protocol is encrypted by transport layer security(TLS) or secure socket layer(SSL). Https is an extension of (HTTP)hypertext transfer protocol. 
+
+![](https://media.geeksforgeeks.org/wp-content/uploads/Socket-Programming-in-C-C-.jpg)
+
+
 
 

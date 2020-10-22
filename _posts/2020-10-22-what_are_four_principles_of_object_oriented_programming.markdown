@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "What are four principles of Object Oriented Programming?"
-date:       2020-10-22 17:50:45 +0000
+date:       2020-10-22 13:50:46 -0400
 permalink:  what_are_four_principles_of_object_oriented_programming
 ---
 
@@ -17,7 +17,7 @@ Inheritances means a relationship between two objects by using “is-a” or “
 Polymorphism is a greek word meaning one name in many forms. It is related to inheritance, superclass code will work with subclass type too.
 
 
-For example newsletter to explain get,post, and put:
+For example newsletter to explain get, post, and put:
 
 GET is to show all newsletters
 
